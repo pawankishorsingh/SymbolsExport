@@ -1,6 +1,12 @@
 # Export function from C++ DLL using declSpec
 - Clone this repo
 - Compile using VS2019
+- Notice that these files got generated:
+  - MyLib.dll
+  - MyLib.exp
+  -	MyLib.ilk
+  -	MyLib.lib
+  -	MyLib.pdb
 - Open Visual Studio Developer Command Prompt and run `dumpbin /EXPORTS MyLib.dll`
 - Output:
 ```
@@ -22,6 +28,12 @@ Section contains the following exports for MyLib.dll
 # Export a class from C++ DLL using declSpec
 - Clone this repo
 - Compile using VS2019
+- Notice that these files got generated:
+  - Employee.dll
+  - Employee.exp
+  -	Employee.ilk
+  -	Employee.lib
+  -	Employee.pdb
 - Open Visual Studio Developer Command Prompt and run `dumpbin /EXPORTS Employee.dll`
 - Output:
 ```
